@@ -1,0 +1,29 @@
+{
+    "empty": [
+        {
+            "address": "0x49EE418607f99C34A2598040e686e0dbEeC512Df",
+            "private_key": "0x5430a35e42530e3ccb1fd6ce637e90d03dc918392da9020712f063895568b6d1",
+            "assigned": true
+        },
+        {
+            "address": "0xF56472a5a88931C98364efeeC55F52E407a227ec",
+            "private_key": "0xb1a85f0653c4ca04a3c08a98eeb0cd06dac1883dfadfe49099e44915b3bee4d3",
+            "assigned": true
+        },
+        {
+            "address": "0x8A6B4196B58903e527689FE29Ec912EdEBd9844D",
+            "private_key": "0x0cf748f65110bfca58a173deaa39e2bdf7847f22b7e3dc52e6b8353293f80a39",
+            "assigned": true
+        },
+        {
+            "address": "0x0EFE26B79d508622a45ab248Fdd507eD1dc7EC430x0EFE26B79d508622a45ab248Fdd507eD1dc7EC43",
+            "private_key": "0xfbee4bda647c212699361e34f0022a35c90e1d477e3cafa6d6134b6af8c3c063",
+            "assigned": false
+        },
+        {
+            "address": "0xd50EA279382011642251C6184E80F32e3a0BD8A0",
+            "private_key": "0x243f25934195b71534e6ad275b666c814698e0b195d7a8931bce56dee8ab399b",
+            "assigned": false
+        }
+    ]
+}

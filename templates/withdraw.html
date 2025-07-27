@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Withdraw Ether</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Withdraw Ether</h2>
+        <form method="POST">
+            <label>From Address (Bank Account):</label>
+            <input type="text" name="from_address" placeholder="0x..." required>
+
+            <label>From Private Key:</label>
+            <input type="text" name="from_private_key" placeholder="Private key" required>
+
+            <label>To Address (User Address):</label>
+            <input type="text" name="to_address" placeholder="0x..." required>
+
+            <label>Amount to Withdraw (in ETH):</label>
+            <input type="number" name="amount" step="0.01" min="0.01" required>
+
+            <button type="submit">Withdraw</button>
+        </form>
+    </div>
+</body>
+</html>

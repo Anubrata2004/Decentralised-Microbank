@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Registration</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+  <div class="card">
+    <h2>Admin Registration</h2>
+    <form method="POST" action="/register_admin">
+      <input type="text" name="name" placeholder="Admin Name" required>
+      <input type="password" name="password" placeholder="Create Password" required>
+      <button type="submit">Register</button>
+    </form>
+    <p>Fixed Address: 0x92b2422E8597482C106Be235d6c3B06CEc270184</p>
+  </div>
+</body>
+</html>
